@@ -40,6 +40,11 @@ class Bolas{
             this.pelota.y=juego.world.centerY;
             this.pelota.body.velocity.setTo(0,0);
             this.bolaLanzada=false;
+            this.puntaje1=0;
+            this.puntaje2=0;
+            this.puntaje1T.text=0;
+            this.puntaje2T.text=0;
+
         }else{
             this.pelota.body.velocity.x=-this.bolaVelocidad;
             this.pelota.body.velocity.y=this.bolaVelocidad;
